@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row
+{
+	
+	height: 50px;
+	background-color: black;
+
+}
+.heading
+{
+	color: white;
+	font-size: 20px;
+	padding-left: 550px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+}
+.octanet
+{
+	font-size: 100px;
+	font-family: cursive;
+	padding-left: 400px;
+	padding-top:50px;
+}
+.o{
+	font-size: 120px;
+}
+.services
+{
+	font-family: cursive;
+	font-size: 30px;
+	padding-left: 450px;
+	letter-spacing: 2px;
+}
+.tagline
+{
+	padding-left: 330px;
+	letter-spacing: 3px;
+	text-shadow: 4px 4px yellow;
+}
+.name
+{
+	background-color: lightgray;
+}
+.we
+{
+	text-decoration: underline;
+	padding-left: 550px;
+}
+.provides
+{
+	margin: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card
+{
+	border:2px solid black;
+	box-shadow: 4px 4px red;
+	transition: transform 0.3s ease;
+}
+.card:hover
+{
+	transform: scale(1.05);
+}
+.contact
+{
+	padding-left: 450px;
+}
